@@ -1,7 +1,12 @@
+using Microsoft.AspNetCore.Mvc;
+
 namespace TodoApp.Api.Controllers
 {
-    public class TodoAppController
+
+    [ApiController]
+    [Route("controllers")]
+    public class TodoAppController : ControllerBase
     {
-        
+
     }
 }
